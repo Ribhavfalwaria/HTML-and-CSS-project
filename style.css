@@ -1,0 +1,136 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav a.toplink{
+    font-size: larger;
+}
+#nav a{
+    margin-right: 20px;
+}
+
+#apps{
+    height: 25px;
+    width: 30px;
+}
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    text-align: center;
+    
+}
+img{
+    width: 400px;
+}
+
+#searchbarcontainer{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 70px;
+    border: 2px solid #7a7878;
+    width: fit-content;
+    height: fit-content;
+}
+
+#searchbar{
+    padding-top:15px;
+    padding-bottom: 10px;
+    outline: transparent;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: transparent;
+    border: 2;
+}
+
+#searchbar:hover{
+    background: rgb(238, 233, 233);
+}
+
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #807979;
+    background: rgb(204, 198, 198);
+    border-radius: 4px;
+}
+
+#links{
+    text-align: center;
+    padding: 15px;
+}
+
+a{
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: small;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#india{
+    display: flex;
+    padding-bottom:10px ;
+    padding-top: 10px;
+    justify-content: flex-end;
+    padding-top: 10px;
+    height: 50px;
+    border-bottom: 15px 30px;
+    text-decoration: none;
+}
+
+#magnifine{
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    height: 20px;
+    width: 30px;
+    content: icon;
+}
+
+#voice{
+    padding-top: 5px;
+    padding-right: 4px;
+    height: 26px;
+    width: 30px;
+    content: icon;;
+}
+
+#footer{
+    background-color: #7a7878;
+}
+
+#k{
+    text-decoration: none;
+}
